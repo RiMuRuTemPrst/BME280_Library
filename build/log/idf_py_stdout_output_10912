@@ -1,0 +1,4 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/sdkconfig'
+-- Found Git: C:/Espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- Configuring incomplete, errors occurred!
+See also "D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build/CMakeFiles/CMakeOutput.log".

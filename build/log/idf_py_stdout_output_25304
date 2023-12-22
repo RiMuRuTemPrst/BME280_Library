@@ -1,0 +1,337 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/sdkconfig
+-- App "main" version: 71e0807-dirty
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script D:/ESP32_IDF_ESPRESSIF/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bme280 bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc sensor_1 soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: D:/ESP32_IDF_ESPRESSIF/components/app_trace D:/ESP32_IDF_ESPRESSIF/components/app_update D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280 D:/ESP32_IDF_ESPRESSIF/components/bootloader D:/ESP32_IDF_ESPRESSIF/components/bootloader_support D:/ESP32_IDF_ESPRESSIF/components/bt D:/ESP32_IDF_ESPRESSIF/components/cmock D:/ESP32_IDF_ESPRESSIF/components/console D:/ESP32_IDF_ESPRESSIF/components/cxx D:/ESP32_IDF_ESPRESSIF/components/driver D:/ESP32_IDF_ESPRESSIF/components/efuse D:/ESP32_IDF_ESPRESSIF/components/esp-tls D:/ESP32_IDF_ESPRESSIF/components/esp_adc D:/ESP32_IDF_ESPRESSIF/components/esp_app_format D:/ESP32_IDF_ESPRESSIF/components/esp_coex D:/ESP32_IDF_ESPRESSIF/components/esp_common D:/ESP32_IDF_ESPRESSIF/components/esp_eth D:/ESP32_IDF_ESPRESSIF/components/esp_event D:/ESP32_IDF_ESPRESSIF/components/esp_gdbstub D:/ESP32_IDF_ESPRESSIF/components/esp_hid D:/ESP32_IDF_ESPRESSIF/components/esp_http_client D:/ESP32_IDF_ESPRESSIF/components/esp_http_server D:/ESP32_IDF_ESPRESSIF/components/esp_https_ota D:/ESP32_IDF_ESPRESSIF/components/esp_https_server D:/ESP32_IDF_ESPRESSIF/components/esp_hw_support D:/ESP32_IDF_ESPRESSIF/components/esp_lcd D:/ESP32_IDF_ESPRESSIF/components/esp_local_ctrl D:/ESP32_IDF_ESPRESSIF/components/esp_mm D:/ESP32_IDF_ESPRESSIF/components/esp_netif D:/ESP32_IDF_ESPRESSIF/components/esp_netif_stack D:/ESP32_IDF_ESPRESSIF/components/esp_partition D:/ESP32_IDF_ESPRESSIF/components/esp_phy D:/ESP32_IDF_ESPRESSIF/components/esp_pm D:/ESP32_IDF_ESPRESSIF/components/esp_psram D:/ESP32_IDF_ESPRESSIF/components/esp_ringbuf D:/ESP32_IDF_ESPRESSIF/components/esp_rom D:/ESP32_IDF_ESPRESSIF/components/esp_system D:/ESP32_IDF_ESPRESSIF/components/esp_timer D:/ESP32_IDF_ESPRESSIF/components/esp_wifi D:/ESP32_IDF_ESPRESSIF/components/espcoredump D:/ESP32_IDF_ESPRESSIF/components/esptool_py D:/ESP32_IDF_ESPRESSIF/components/fatfs D:/ESP32_IDF_ESPRESSIF/components/freertos D:/ESP32_IDF_ESPRESSIF/components/hal D:/ESP32_IDF_ESPRESSIF/components/heap D:/ESP32_IDF_ESPRESSIF/components/http_parser D:/ESP32_IDF_ESPRESSIF/components/idf_test D:/ESP32_IDF_ESPRESSIF/components/ieee802154 D:/ESP32_IDF_ESPRESSIF/components/json D:/ESP32_IDF_ESPRESSIF/components/log D:/ESP32_IDF_ESPRESSIF/components/lwip D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/main D:/ESP32_IDF_ESPRESSIF/components/mbedtls D:/ESP32_IDF_ESPRESSIF/components/mqtt D:/ESP32_IDF_ESPRESSIF/components/newlib D:/ESP32_IDF_ESPRESSIF/components/nvs_flash D:/ESP32_IDF_ESPRESSIF/components/openthread D:/ESP32_IDF_ESPRESSIF/components/partition_table D:/ESP32_IDF_ESPRESSIF/components/perfmon D:/ESP32_IDF_ESPRESSIF/components/protobuf-c D:/ESP32_IDF_ESPRESSIF/components/protocomm D:/ESP32_IDF_ESPRESSIF/components/pthread D:/ESP32_IDF_ESPRESSIF/components/sdmmc D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/sensor_1 D:/ESP32_IDF_ESPRESSIF/components/soc D:/ESP32_IDF_ESPRESSIF/components/spi_flash D:/ESP32_IDF_ESPRESSIF/components/spiffs D:/ESP32_IDF_ESPRESSIF/components/tcp_transport D:/ESP32_IDF_ESPRESSIF/components/ulp D:/ESP32_IDF_ESPRESSIF/components/unity D:/ESP32_IDF_ESPRESSIF/components/usb D:/ESP32_IDF_ESPRESSIF/components/vfs D:/ESP32_IDF_ESPRESSIF/components/wear_levelling D:/ESP32_IDF_ESPRESSIF/components/wifi_provisioning D:/ESP32_IDF_ESPRESSIF/components/wpa_supplicant D:/ESP32_IDF_ESPRESSIF/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\ESP32_IDF_ESPRESSIF\Projects\BME280_Test_library_ver2\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe D:/ESP32_IDF_ESPRESSIF/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] Building C object esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme.c.obj
+FAILED: esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme.c.obj 
+ccache C:\Users\tquoc\.rustup\toolchains\esp\xtensa-esp32-elf\esp-12.2.0_20230208\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.1.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build/config -ID:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/include -ID:/ESP32_IDF_ESPRESSIF/components/newlib/platform_include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/FreeRTOS-Kernel/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/include/freertos -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/arch/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include/soc -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include/soc/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/port/esp32/. -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/port/esp32/private_include -ID:/ESP32_IDF_ESPRESSIF/components/heap/include -ID:/ESP32_IDF_ESPRESSIF/components/log/include -ID:/ESP32_IDF_ESPRESSIF/components/soc/include -ID:/ESP32_IDF_ESPRESSIF/components/soc/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/soc/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/platform_port/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/include/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_common/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/port/soc -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/port/include/private -ID:/ESP32_IDF_ESPRESSIF/components/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/xtensa/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include/apps -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include/apps/sntp -ID:/ESP32_IDF_ESPRESSIF/components/lwip/lwip/src/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/freertos/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/esp32xx/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/esp32xx/include/arch -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2=. -fmacro-prefix-map=D:/ESP32_IDF_ESPRESSIF=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme.c.obj -MF esp-idf\bme280\CMakeFiles\__idf_bme280.dir\bme.c.obj.d -o esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme.c.obj -c D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme.c
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme.c:12:10: fatal error: driver/i2c.h: No such file or directory
+   12 | #include "driver/i2c.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+[3/10] Building C object esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme280_support.c.obj
+FAILED: esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme280_support.c.obj 
+ccache C:\Users\tquoc\.rustup\toolchains\esp\xtensa-esp32-elf\esp-12.2.0_20230208\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.1.1\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/build/config -ID:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/include -ID:/ESP32_IDF_ESPRESSIF/components/newlib/platform_include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/FreeRTOS-Kernel/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/include/freertos -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/include -ID:/ESP32_IDF_ESPRESSIF/components/freertos/esp_additions/arch/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include/soc -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/include/soc/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/port/esp32/. -ID:/ESP32_IDF_ESPRESSIF/components/esp_hw_support/port/esp32/private_include -ID:/ESP32_IDF_ESPRESSIF/components/heap/include -ID:/ESP32_IDF_ESPRESSIF/components/log/include -ID:/ESP32_IDF_ESPRESSIF/components/soc/include -ID:/ESP32_IDF_ESPRESSIF/components/soc/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/soc/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/include -ID:/ESP32_IDF_ESPRESSIF/components/hal/platform_port/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/include/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_rom/esp32 -ID:/ESP32_IDF_ESPRESSIF/components/esp_common/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/include -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/port/soc -ID:/ESP32_IDF_ESPRESSIF/components/esp_system/port/include/private -ID:/ESP32_IDF_ESPRESSIF/components/xtensa/include -ID:/ESP32_IDF_ESPRESSIF/components/xtensa/esp32/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include/apps -ID:/ESP32_IDF_ESPRESSIF/components/lwip/include/apps/sntp -ID:/ESP32_IDF_ESPRESSIF/components/lwip/lwip/src/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/freertos/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/esp32xx/include -ID:/ESP32_IDF_ESPRESSIF/components/lwip/port/esp32xx/include/arch -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2=. -fmacro-prefix-map=D:/ESP32_IDF_ESPRESSIF=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme280_support.c.obj -MF esp-idf\bme280\CMakeFiles\__idf_bme280.dir\bme280_support.c.obj.d -o esp-idf/bme280/CMakeFiles/__idf_bme280.dir/bme280_support.c.obj -c D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:71:1: error: unknown type name 's8'
+   71 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:71:24: error: unknown type name 'u8'
+   71 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                        ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:71:37: error: unknown type name 'u8'
+   71 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                     ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:71:50: error: unknown type name 'u8'
+   71 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                  ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:71:64: error: unknown type name 'u8'
+   71 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                                ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:80:1: error: unknown type name 's8'
+   80 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:80:25: error: unknown type name 'u8'
+   80 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                         ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:80:38: error: unknown type name 'u8'
+   80 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                      ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:80:51: error: unknown type name 'u8'
+   80 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                   ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:80:65: error: unknown type name 'u8'
+   80 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                                 ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:89:1: error: unknown type name 's8'
+   89 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:89:25: error: unknown type name 'u8'
+   89 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                         ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:89:38: error: unknown type name 'u8'
+   89 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                      ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:89:51: error: unknown type name 'u8'
+   89 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                   ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:89:65: error: unknown type name 'u8'
+   89 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                                 ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:96:1: error: unknown type name 's8'
+   96 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:96:24: error: unknown type name 'u8'
+   96 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                        ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:96:37: error: unknown type name 'u8'
+   96 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                     ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:96:50: error: unknown type name 'u8'
+   96 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                  ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:96:64: error: unknown type name 'u8'
+   96 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt);
+      |                                                                ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:100:1: error: unknown type name 's8'
+  100 | s8 I2C_routine(void);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:101:1: error: unknown type name 's8'
+  101 | s8 SPI_routine(void);
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:107:24: error: unknown type name 'u32'
+  107 | void BME280_delay_msek(u32 msek);
+      |                        ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:112:1: error: unknown type name 's32'
+  112 | s32 bme280_data_readout_template(void);
+      | ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:127:1: error: unknown type name 's32'
+  127 | s32 bme280_data_readout_template(void)
+      | ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: In function 'bme280_data_readout_template':
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:130:9: error: unknown type name 'u8'
+  130 |         u8 v_stand_by_time_u8 = BME280_INIT_VALUE;
+      |         ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:130:33: error: 'BME280_INIT_VALUE' undeclared (first use in this function)
+  130 |         u8 v_stand_by_time_u8 = BME280_INIT_VALUE;
+      |                                 ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:130:33: note: each undeclared identifier is reported only once for each function it appears in
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:132:9: error: unknown type name 's32'
+  132 |         s32 v_data_uncomp_temp_s32 = BME280_INIT_VALUE;
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:134:9: error: unknown type name 's32'
+  134 |         s32 v_data_uncomp_pres_s32 = BME280_INIT_VALUE;
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:136:9: error: unknown type name 's32'
+  136 |         s32 v_data_uncomp_hum_s32 = BME280_INIT_VALUE;
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:138:9: error: unknown type name 's32'
+  138 |         s32 v_comp_temp_s32[2] = {BME280_INIT_VALUE, BME280_INIT_VALUE};
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:140:9: error: unknown type name 'u32'
+  140 |         u32 v_comp_press_u32[2] = {BME280_INIT_VALUE, BME280_INIT_VALUE};
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:142:9: error: unknown type name 'u32'
+  142 |         u32 v_comp_humidity_u32[2] = {BME280_INIT_VALUE, BME280_INIT_VALUE};
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:145:9: error: unknown type name 's32'
+  145 |         s32 com_rslt = ERROR;
+      |         ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:145:24: error: 'ERROR' undeclared (first use in this function)
+  145 |         s32 com_rslt = ERROR;
+      |                        ^~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:164:20: error: implicit declaration of function 'bme280_init' [-Werror=implicit-function-declaration]
+  164 |         com_rslt = bme280_init(&bme280);
+      |                    ^~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:171:21: error: implicit declaration of function 'bme280_set_power_mode' [-Werror=implicit-function-declaration]
+  171 |         com_rslt += bme280_set_power_mode(BME280_NORMAL_MODE);
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:171:43: error: 'BME280_NORMAL_MODE' undeclared (first use in this function)
+  171 |         com_rslt += bme280_set_power_mode(BME280_NORMAL_MODE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:181:21: error: implicit declaration of function 'bme280_set_oversamp_humidity' [-Werror=implicit-function-declaration]
+  181 |         com_rslt += bme280_set_oversamp_humidity(BME280_OVERSAMP_1X);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:181:50: error: 'BME280_OVERSAMP_1X' undeclared (first use in this function)
+  181 |         com_rslt += bme280_set_oversamp_humidity(BME280_OVERSAMP_1X);
+      |                                                  ^~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:184:21: error: implicit declaration of function 'bme280_set_oversamp_pressure' [-Werror=implicit-function-declaration]
+  184 |         com_rslt += bme280_set_oversamp_pressure(BME280_OVERSAMP_2X);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:184:50: error: 'BME280_OVERSAMP_2X' undeclared (first use in this function)
+  184 |         com_rslt += bme280_set_oversamp_pressure(BME280_OVERSAMP_2X);
+      |                                                  ^~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:186:21: error: implicit declaration of function 'bme280_set_oversamp_temperature' [-Werror=implicit-function-declaration]
+  186 |         com_rslt += bme280_set_oversamp_temperature(BME280_OVERSAMP_4X);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:186:53: error: 'BME280_OVERSAMP_4X' undeclared (first use in this function)
+  186 |         com_rslt += bme280_set_oversamp_temperature(BME280_OVERSAMP_4X);
+      |                                                     ^~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:199:21: error: implicit declaration of function 'bme280_set_standby_durn' [-Werror=implicit-function-declaration]
+  199 |         com_rslt += bme280_set_standby_durn(BME280_STANDBY_TIME_1_MS);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:199:45: error: 'BME280_STANDBY_TIME_1_MS' undeclared (first use in this function)
+  199 |         com_rslt += bme280_set_standby_durn(BME280_STANDBY_TIME_1_MS);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:202:21: error: implicit declaration of function 'bme280_get_standby_durn' [-Werror=implicit-function-declaration]
+  202 |         com_rslt += bme280_get_standby_durn(&v_stand_by_time_u8);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:214:21: error: implicit declaration of function 'bme280_read_uncomp_temperature' [-Werror=implicit-function-declaration]
+  214 |         com_rslt += bme280_read_uncomp_temperature(&v_data_uncomp_temp_s32);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:217:21: error: implicit declaration of function 'bme280_read_uncomp_pressure' [-Werror=implicit-function-declaration]
+  217 |         com_rslt += bme280_read_uncomp_pressure(&v_data_uncomp_pres_s32);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:220:21: error: implicit declaration of function 'bme280_read_uncomp_humidity' [-Werror=implicit-function-declaration]
+  220 |         com_rslt += bme280_read_uncomp_humidity(&v_data_uncomp_hum_s32);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:224:21: error: implicit declaration of function 'bme280_read_uncomp_pressure_temperature_humidity' [-Werror=implicit-function-declaration]
+  224 |         com_rslt += bme280_read_uncomp_pressure_temperature_humidity(
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:235:30: error: implicit declaration of function 'bme280_compensate_temperature_int32' [-Werror=implicit-function-declaration]
+  235 |         v_comp_temp_s32[0] = bme280_compensate_temperature_int32(
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:239:31: error: implicit declaration of function 'bme280_compensate_pressure_int32' [-Werror=implicit-function-declaration]
+  239 |         v_comp_press_u32[0] = bme280_compensate_pressure_int32(
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:243:34: error: implicit declaration of function 'bme280_compensate_humidity_int32' [-Werror=implicit-function-declaration]
+  243 |         v_comp_humidity_u32[0] = bme280_compensate_humidity_int32(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:247:21: error: implicit declaration of function 'bme280_read_pressure_temperature_humidity' [-Werror=implicit-function-declaration]
+  247 |         com_rslt += bme280_read_pressure_temperature_humidity(
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:263:43: error: 'BME280_SLEEP_MODE' undeclared (first use in this function)
+  263 |         com_rslt += bme280_set_power_mode(BME280_SLEEP_MODE);
+      |                                           ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: At top level:
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:279:1: error: unknown type name 's8'
+  279 | s8 I2C_routine(void) {
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: In function 'I2C_routine':
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:287:15: error: invalid use of undefined type 'struct bme280_t'
+  287 |         bme280.bus_write = BME280_I2C_bus_write;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:287:28: error: 'BME280_I2C_bus_write' undeclared (first use in this function)
+  287 |         bme280.bus_write = BME280_I2C_bus_write;
+      |                            ^~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:288:15: error: invalid use of undefined type 'struct bme280_t'
+  288 |         bme280.bus_read = BME280_I2C_bus_read;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:288:27: error: 'BME280_I2C_bus_read' undeclared (first use in this function)
+  288 |         bme280.bus_read = BME280_I2C_bus_read;
+      |                           ^~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:289:15: error: invalid use of undefined type 'struct bme280_t'
+  289 |         bme280.dev_addr = BME280_I2C_ADDRESS2;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:289:27: error: 'BME280_I2C_ADDRESS2' undeclared (first use in this function)
+  289 |         bme280.dev_addr = BME280_I2C_ADDRESS2;
+      |                           ^~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:290:15: error: invalid use of undefined type 'struct bme280_t'
+  290 |         bme280.delay_msec = BME280_delay_msek;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:290:29: error: 'BME280_delay_msek' undeclared (first use in this function)
+  290 |         bme280.delay_msec = BME280_delay_msek;
+      |                             ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:292:16: error: 'BME280_INIT_VALUE' undeclared (first use in this function)
+  292 |         return BME280_INIT_VALUE;
+      |                ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: At top level:
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:299:1: error: unknown type name 's8'
+  299 | s8 SPI_routine(void) {
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: In function 'SPI_routine':
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:307:15: error: invalid use of undefined type 'struct bme280_t'
+  307 |         bme280.bus_write = BME280_SPI_bus_write;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:307:28: error: 'BME280_SPI_bus_write' undeclared (first use in this function)
+  307 |         bme280.bus_write = BME280_SPI_bus_write;
+      |                            ^~~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:308:15: error: invalid use of undefined type 'struct bme280_t'
+  308 |         bme280.bus_read = BME280_SPI_bus_read;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:308:27: error: 'BME280_SPI_bus_read' undeclared (first use in this function)
+  308 |         bme280.bus_read = BME280_SPI_bus_read;
+      |                           ^~~~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:309:15: error: invalid use of undefined type 'struct bme280_t'
+  309 |         bme280.delay_msec = BME280_delay_msek;
+      |               ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:309:29: error: 'BME280_delay_msek' undeclared (first use in this function)
+  309 |         bme280.delay_msec = BME280_delay_msek;
+      |                             ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:311:16: error: 'BME280_INIT_VALUE' undeclared (first use in this function)
+  311 |         return BME280_INIT_VALUE;
+      |                ^~~~~~~~~~~~~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: At top level:
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:331:1: error: unknown type name 's8'
+  331 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:331:25: error: unknown type name 'u8'
+  331 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                         ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:331:38: error: unknown type name 'u8'
+  331 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                      ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:331:51: error: unknown type name 'u8'
+  331 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                   ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:331:65: error: unknown type name 'u8'
+  331 | s8 BME280_I2C_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                                 ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:365:1: error: unknown type name 's8'
+  365 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:365:24: error: unknown type name 'u8'
+  365 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                        ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:365:37: error: unknown type name 'u8'
+  365 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                     ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:365:50: error: unknown type name 'u8'
+  365 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                  ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:365:64: error: unknown type name 'u8'
+  365 | s8 BME280_I2C_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                                ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:393:1: error: unknown type name 's8'
+  393 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:393:24: error: unknown type name 'u8'
+  393 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                        ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:393:37: error: unknown type name 'u8'
+  393 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                     ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:393:50: error: unknown type name 'u8'
+  393 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                  ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:393:64: error: unknown type name 'u8'
+  393 | s8 BME280_SPI_bus_read(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                                ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:432:1: error: unknown type name 's8'
+  432 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      | ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:432:25: error: unknown type name 'u8'
+  432 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                         ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:432:38: error: unknown type name 'u8'
+  432 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                      ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:432:51: error: unknown type name 'u8'
+  432 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                   ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:432:65: error: unknown type name 'u8'
+  432 | s8 BME280_SPI_bus_write(u8 dev_addr, u8 reg_addr, u8 *reg_data, u8 cnt)
+      |                                                                 ^~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:460:24: error: unknown type name 'u32'
+  460 | void BME280_delay_msek(u32 msek)
+      |                        ^~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:122:17: error: storage size of 'bme280' isn't known
+  122 | struct bme280_t bme280;
+      |                 ^~~~~~
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: In function 'I2C_routine':
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:293:1: error: control reaches end of non-void function [-Werror=return-type]
+  293 | }
+      | ^
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c: In function 'SPI_routine':
+D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/components/bme280/bme280_support.c:312:1: error: control reaches end of non-void function [-Werror=return-type]
+  312 | }
+      | ^
+cc1.exe: some warnings being treated as errors
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,11 @@
+Compiler supported targets: xtensa-esp32-elf
+
+CMake Error at D:/ESP32_IDF_ESPRESSIF/tools/cmake/component.cmake:313 (message):
+  Include directory
+  'D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/component/bme280/include'
+  is not a directory.
+Call Stack (most recent call first):
+  D:/ESP32_IDF_ESPRESSIF/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  component/bme280/CMakeLists.txt:1 (idf_component_register)
+
+

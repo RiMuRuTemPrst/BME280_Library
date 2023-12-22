@@ -1,0 +1,8 @@
+CMake Error at D:/ESP32_IDF_ESPRESSIF/tools/cmake/project.cmake:349 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  D:/ESP32_IDF_ESPRESSIF/Projects/BME280_Test_library_ver2/component
+Call Stack (most recent call first):
+  D:/ESP32_IDF_ESPRESSIF/tools/cmake/project.cmake:433 (__project_init)
+  CMakeLists.txt:11 (project)
+
+
